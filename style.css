@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Salsa', cursive;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFB;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+  width: 50vh;
+  border-radius: 2rem;
+  background-color: #b8b8d167;
+
+}
+
+.h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.line {
+  background-color: #56acdd;
+  height: 5px;
+  width: 60%;
+  margin-bottom: 1rem;
+}
+
+.img-div {
+  background-color: #56acdd;
+  border-radius: 50%;
+  height: 20vh;
+  width: 20vh;
+}
+
+.img-div img {
+  border-radius: 50%;
+  height: 20vh;
+  width: 20vh;
+  object-fit: cover;
+  transform: translate(-5%, 2%);
+}
+
+.text {
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about {
+  width: 40vh;
+  height: 10vh;
+  font-size: 0.7rem;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.name,
+.job {
+  margin-top: 0.5rem;
+}
+
+.job {
+  color: #56acdd;
+}
+
+.btn {
+  margin-bottom: 0.7rem;
+}
+
+.prev-btn,
+.next-btn {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+h3{
+  margin: 3rem 0 0 0;
+}
+
+.random {
+  border: 1px solid #56acdd;
+  border-radius: 1rem;
+  padding: 0.3rem 1rem;
+  color: #56acdd;
+  cursor: pointer;
+  background-color: transparent;
+}
+@media (max-width:500px ) {
+  .container{
+    height: 60vh;
+    width: 40vh;
+    border-radius: 2rem;
+  }
+  h1{
+    font-size: 20px;
+  }
+  .img-div {
+    background-color: #56acdd;
+    border-radius: 50%;
+    height: 15vh;
+    width: 15vh;
+  }
+  
+  .img-div img {
+    border-radius: 50%;
+    height: 15vh;
+    width: 15vh;
+    object-fit: cover;
+    transform: translate(-5%, 2%);
+  }
+  p{
+    font-size: 15px;
+  }
+  .about{
+    width: 30vh;
+  }
+  h3{
+    font-size: 10px;
+  }
+}
